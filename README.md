@@ -41,7 +41,7 @@ It filters out profanity, rephrases inappropriate outputs, and adapts to the lan
 ### 3. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/dobby_telegram_bot.git
+git clone https://github.com/sezaras85/sentient_telegram_dobby_bot.git
 cd dobby_telegram_bot
 cp .env.example .env
 ```
