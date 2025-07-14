@@ -46,6 +46,53 @@ cd dobby_telegram_bot
 cp .env.example .env
 ```
 
+Edit the .env file with your own credentials:
+```bash
+TELEGRAM_BOT_TOKEN=your_telegram_bot_token
+FIREWORKS_API_KEY=your_fireworks_api_key
+```
+
+4. Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+
+5. Run the Bot
+```bash
+python3 bot.py
+
+```
+
+You should see:
+
+```bash
+🤖 Dobby-70B is working...
+
+```
+
+Sample Usage
+
+User in group chat:
+```bash
+@dobby_reply_bot What are your thoughts on decentralized AI?
+
+```
+
+Dobby:
+```bash
+Decentralized AI is a powerful shift towards transparency and user empowerment. It's reshaping the future of Web3.
+
+```
+
+
+
+
+
+
+
+
+
+
 
 
 
